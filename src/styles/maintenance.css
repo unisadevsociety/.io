@@ -1,0 +1,22 @@
+.maintancontainer {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3e3e3;
+}
+
+.maintainAnimation {
+  width: 40vw;
+}
+.texttextmaintaine {
+  font-family: "Space Mono", monospace;
+  font-size: 1.9rem;
+}
+@media (max-width: 767px) {
+  .texttextmaintaine {
+    font-size: 1rem;
+  }
+}
